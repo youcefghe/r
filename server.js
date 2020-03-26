@@ -3,8 +3,6 @@ const dotenv = require('dotenv');
 //load env vars
 dotenv.config({ path: './config/config.env' });
 
-
-
 const bootcamps = require('./routes/bootcamps');
 
 const app = express();
